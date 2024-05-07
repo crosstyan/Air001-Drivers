@@ -30,6 +30,7 @@ extern "C" {
 
 /* Includes ------------------------------------------------------------------*/
 #include "air001xx_hal_def.h"
+#include "air001xx_hal_dma.h"
 
 /** @addtogroup AIRF1xx_HAL_Driver
   * @{

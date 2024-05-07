@@ -26,6 +26,15 @@
 #define __AIR001xx_HAL_H
 
 #ifdef __cplusplus
+#include <cstddef>
+#include <cstdint>
+#else
+#include <stddef.h>
+#include <stdint.h>
+#endif
+#include "air001xx_hal_def.h"
+
+#ifdef __cplusplus
 extern "C" {
 #endif
 

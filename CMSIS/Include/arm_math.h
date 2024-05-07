@@ -317,6 +317,16 @@
 #undef  __CMSIS_GENERIC         /* enable NVIC and Systick functions */
 #include "string.h"
 #include "math.h"
+
+#ifdef __cplusplus
+#include<cstdint>
+#else
+#include<stdint.h>
+#endif
+#ifndef __INLINE
+#define __INLINE inline
+#endif
+
 #ifdef   __cplusplus
 extern "C"
 {
